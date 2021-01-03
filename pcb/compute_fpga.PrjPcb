@@ -55,6 +55,23 @@ GenerateClassCluster=0
 DocumentUniqueId=NKYPQXEC
 
 [Document2]
+DocumentPath=power supply.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=13
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=JSTDTPOK
+
+[Document3]
 DocumentPath=FPGA power.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -71,7 +88,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ZFTOYUXI
 
-[Document3]
+[Document4]
 DocumentPath=FPGA programming.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -88,7 +105,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=OYNFAJQY
 
-[Document4]
+[Document5]
 DocumentPath=FPGA ram.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -105,7 +122,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=JKUDDAKJ
 
-[Document5]
+[Document6]
 DocumentPath=FPGA.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -122,7 +139,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WVHHCFDI
 
-[Document6]
+[Document7]
 DocumentPath=compute module.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -139,7 +156,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=NBVMKVBX
 
-[Document7]
+[Document8]
 DocumentPath=..\..\..\Other-Repos\QWAVE_Raspberry-Pi-CM4-Altium-Library\CM4.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -156,7 +173,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document8]
+[Document9]
 DocumentPath=..\..\..\Other-Repos\QWAVE_Raspberry-Pi-CM4-Altium-Library\CM4.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -173,7 +190,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ROPDXZRL
 
-[Document9]
+[Document10]
 DocumentPath=compute module unused.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -190,7 +207,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WKKCVFWV
 
-[Document10]
+[Document11]
 DocumentPath=compute module power.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -207,7 +224,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=NDPKKRSZ
 
-[Document11]
+[Document12]
 DocumentPath=Ethernet.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -224,7 +241,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=JZKAYPMJ
 
-[Document12]
+[Document13]
 DocumentPath=HDMI out.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -241,7 +258,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SXLKWIQO
 
-[Document13]
+[Document14]
 DocumentPath=microsd.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -258,7 +275,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ZMJBFVZM
 
-[Document14]
+[Document15]
 DocumentPath=USB.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -275,7 +292,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UDQEQPSO
 
-[Document15]
+[Document16]
 DocumentPath=PCB1.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -292,9 +309,38 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FEEOKSPH
 
+[Document17]
+DocumentPath=Block Diagram.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=12
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=QYUIWBWP
+
 [GeneratedDocument1]
 DocumentPath=Project Outputs for PI+FPGA\Design Rule Check - Copy2 of PCB1.html
 DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Project Outputs for compute_fpga\Design Rule Check - PCB1.html
+DItemRevisionGUID=
+
+[Parameter1]
+Name=Project
+Value=Raspberry Pincushion
+
+[Parameter2]
+Name=VersionRevision
+Value=Rev0
 
 [Configuration1]
 Name=Sources
@@ -1283,28 +1329,16 @@ NetClassManualEnabled=1
 NetClassSeparateForBusSections=0
 
 [LibraryUpdateOptions]
-SelectedOnly=0
+SelectedOnly=1
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
 ComponentLibraryIdentifier0=Blinkinlabs.IntLib
-ComponentDesignItemID0=YJ-USB-AF-SMT-01
-ComponentSymbolReference0=YJ-USB-AF-SMT-01
-ComponentUpdate0=0
+ComponentDesignItemID0=MIC94325YMT-TR
+ComponentSymbolReference0=MIC94325YMT-TR
+ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
-ComponentLibIdentifierKind1=Library Name And Type
-ComponentLibraryIdentifier1=CM4.SchLib
-ComponentDesignItemID1=CM4
-ComponentSymbolReference1=CM4
-ComponentUpdate1=1
-ComponentIsDeviceSheet1=0
-ComponentLibIdentifierKind2=Library Name Only
-ComponentLibraryIdentifier2=Altium Content Vault
-ComponentDesignItemID2=CMP-17530-000012-1
-ComponentSymbolReference2=72138dfb129a6fdb84776f439bd963b
-ComponentUpdate2=0
-ComponentIsDeviceSheet2=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1324,49 +1358,19 @@ ParameterName1=Component Kind
 ParameterUpdate1=1
 ParameterName2=Description
 ParameterUpdate2=1
-ParameterName3=Library Reference
+ParameterName3=Digikey PartNumber
 ParameterUpdate3=1
-ParameterName4=Manufacturer
+ParameterName4=Library Reference
 ParameterUpdate4=1
-ParameterName5=Max Operating Temperature
+ParameterName5=Manufacturer
 ParameterUpdate5=1
-ParameterName6=Min Operating Temperature
+ParameterName6=PartNumber
 ParameterUpdate6=1
-ParameterName7=Mount
-ParameterUpdate7=1
-ParameterName8=Number of I/Os
-ParameterUpdate8=1
-ParameterName9=Number of Logic Blocks (LABs)
-ParameterUpdate9=1
-ParameterName10=Number of Logic Elements/Cells
-ParameterUpdate10=1
-ParameterName11=PartNumber
-ParameterUpdate11=1
-ParameterName12=RAM Size
-ParameterUpdate12=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=CM4-DF40HC(3.0)-100DS-0.4v_3mm_1.5mm
+ModelName0=QFN50P160X160X60_HS-7N
 ModelUpdate0=1
-ModelType1=PCBLIB
-ModelName1=CM4-F40C-100DS-0.4v_1.5mm_0mm
-ModelUpdate1=1
-ModelType2=PCBLIB
-ModelName2=FP-XC7S50-1FTGB196C-IPC_A
-ModelUpdate2=1
-ModelType3=PCBLIB
-ModelName3=FP-XC7S50-1FTGB196C-IPC_B
-ModelUpdate3=1
-ModelType4=PCBLIB
-ModelName4=FP-XC7S50-1FTGB196C-IPC_C
-ModelUpdate4=1
-ModelType5=PCBLIB
-ModelName5=FP-XC7S50-1FTGB196C-MFG
-ModelUpdate5=1
-ModelType6=PCBLIB
-ModelName6=YJ-USB-AF-SMT-01
-ModelUpdate6=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
