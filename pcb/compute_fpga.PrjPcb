@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=
+OutputPath=Project Outputs for compute_fpga
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -89,23 +89,6 @@ GenerateClassCluster=0
 DocumentUniqueId=OYNFAJQY
 
 [Document4]
-DocumentPath=FPGA ram.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=7
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=JKUDDAKJ
-
-[Document5]
 DocumentPath=compute module.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -122,7 +105,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=NBVMKVBX
 
-[Document6]
+[Document5]
 DocumentPath=..\..\..\Other-Repos\QWAVE_Raspberry-Pi-CM4-Altium-Library\CM4.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -139,7 +122,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document7]
+[Document6]
 DocumentPath=..\..\..\Other-Repos\QWAVE_Raspberry-Pi-CM4-Altium-Library\CM4.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -156,7 +139,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ROPDXZRL
 
-[Document8]
+[Document7]
 DocumentPath=compute module unused.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -173,7 +156,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WKKCVFWV
 
-[Document9]
+[Document8]
 DocumentPath=compute module power.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -190,7 +173,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=NDPKKRSZ
 
-[Document10]
+[Document9]
 DocumentPath=PCB1.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -207,7 +190,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FEEOKSPH
 
-[Document11]
+[Document10]
 DocumentPath=Block Diagram.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -224,24 +207,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QYUIWBWP
 
-[Document12]
-DocumentPath=..\..\..\Blinkinlabs-Repos\Blinkinlabs-Altium-Library\Blinkinlabs.OutJob
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document13]
+[Document11]
 DocumentPath=compute module Ethernet.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -256,9 +222,9 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=JZKAYPMJ
 
-[Document14]
+[Document12]
 DocumentPath=compute module HDMI out.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -273,9 +239,9 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=SXLKWIQO
 
-[Document15]
+[Document13]
 DocumentPath=compute module microsd.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -290,9 +256,9 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=ZMJBFVZM
 
-[Document16]
+[Document14]
 DocumentPath=compute module USB.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -307,9 +273,9 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=UDQEQPSO
 
-[Document17]
+[Document15]
 DocumentPath=FPGA GPIO.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -326,7 +292,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ICPJEKEH
 
-[Document18]
+[Document16]
 DocumentPath=FPGA power supply.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -343,7 +309,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=JSTDTPOK
 
-[Document19]
+[Document17]
 DocumentPath=FPGA sdram.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -351,6 +317,23 @@ AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
 AnnotateOrder=20
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=JKUDDAKJ
+
+[Document18]
+DocumentPath=Blinkinlabs.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -381,6 +364,9 @@ Variant=[No Variations]
 OutputJobsCount=0
 ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
 ConfigurationType=Source
+
+[Generic_EDE]
+OutputDir=Project Outputs for compute_fpga
 
 [OutputGroup1]
 Name=Netlist Outputs
